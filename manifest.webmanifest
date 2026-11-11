@@ -1,0 +1,21 @@
+{
+  "name": "Gestor de diseños",
+  "short_name": "Diseños",
+  "description": "Las obras del Taller: fotos, archivos, variantes, costes y estado",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#b4532a",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Nueva obra", "short_name": "Nueva", "url": "./?accion=nueva", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Por ordenar", "short_name": "Ordenar", "url": "./?accion=ordenar", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Apuntar pregunta", "short_name": "Me han preguntado", "url": "./?accion=pregunta", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
